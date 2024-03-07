@@ -12,6 +12,12 @@ export default defineConfig({
     dark: '/rspress-dark-logo.png',
   },
   themeConfig: {
+    sidebar: {
+      '/': [
+        { text: "Markdown & MDX", link: '/guide'},
+        { text: "Hello", link: '/hello'},
+      ]
+    },
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
     ],
